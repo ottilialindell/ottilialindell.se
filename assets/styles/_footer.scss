@@ -1,0 +1,106 @@
+
+footer {
+    background-color: colors.$secondary;
+    bottom: 0;
+}
+
+.footer-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 14.4rem;
+    width: 100%;
+}
+
+.ol-footer {
+    width: 13rem;
+}
+
+.footer-info {
+    justify-self: start;
+    width: 100%;
+    margin-left: 2rem;
+}
+
+.footer-icons {
+    justify-self: flex-end;
+    width: 100%;
+}
+
+.logo-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.h5-footer {
+    display: flex;
+    justify-content:center;
+    font-family: fonts.$secondary;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 2.5rem;
+
+    color: #FFFFFF;
+}
+
+.footer-image {
+    width: 20rem;
+    padding: 1rem;
+}
+
+.p-footer {
+    font-size: 1.2rem;
+    line-height: 2.3rem;
+    letter-spacing: 0.1rem;
+}
+
+.fa-linkedin {
+    color: colors.$white;
+    font-size: 2.4rem;
+    margin-right: 2rem;
+
+
+    &:hover {
+        color: colors.$main;
+    }
+}
+
+.fa-github {
+    color: colors.$white;
+    font-size: 2.4rem;
+
+    &:hover {
+        color: colors.$main;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .footer-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .footer-info {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-logo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-logo {
+        padding: 3.5%;
+    }
+
+    .footer-icons {
+        width: 100%;
+        max-width: 60%;
+        padding: 2%;
+    }
+}

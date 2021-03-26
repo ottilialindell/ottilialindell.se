@@ -1,0 +1,362 @@
+body {
+    margin:0;
+    padding:0;
+    width: 100%;
+}
+
+.about {
+    background: colors.$main;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+    margin: 0;
+    padding:0;
+    display: flex;
+    padding: 5rem;
+    flex-wrap:wrap;
+}
+
+.wrapper-about {
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+}
+
+.about-text {
+    max-width: 30%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-top {
+    max-width: 65%;
+}
+
+.portrait {
+    width: 45%;
+}
+
+.about-name {
+    font-family: fonts.$main;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 4.5rem;
+    letter-spacing: 0.05em;
+    color: colors.$white;
+}
+
+.about-lastname {
+    font-weight: normal;
+}
+
+h5 {
+    font-family: fonts.$main;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+    color: #F1F1F1;
+}
+
+p {
+    font-family: fonts.$secondary;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 2.3rem;
+    color: colors.$white;
+}
+
+.break {
+    display: flex;
+    flex-basis: 100%;
+    height: 0;
+
+}
+.button {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 100%;
+    max-height: 20rem;
+}
+
+.about-btn {
+    background: colors.$secondary;
+    clip-path: ellipse(50% 25% at 50% 100%);
+    transform: rotate(-5deg);
+    width: 35rem;
+    height: 45rem;
+    border:none;
+    font-family: fonts.$main;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3rem;
+    line-height: 4.5rem;
+    letter-spacing: 0.05em;
+    color: colors.$white;
+
+    &:hover {
+        opacity: 0.5;
+    }
+}
+
+.erfarenhet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.wrapper-erfarenhet {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    min-height: 40rem;
+    height: 100%;
+}
+
+.wrapper-jobb {
+    background-color: #b34a00;
+    padding: 5rem 2rem 2rem 4rem;
+    width: 38%;
+    min-height: 40rem;
+    height: 100%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.wrapper-utbildning {
+    background-color: #b34a00;
+    padding: 5rem 2rem 2rem 4rem;
+    width: 38%;
+    min-height: 40rem;
+    height: 100%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.wrapper-flex-jobb {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 90%;
+    height: 100%;
+}
+
+.wrapper-etaler {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items:flex-start;
+    width: 100%;
+
+    &__1 {
+        padding: 1rem;
+        width: 35%;
+    }
+
+    &__2 {
+        padding: 1rem;
+        margin-left: 1rem;
+    }
+
+}
+
+.wrapper-selected {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items:flex-start;
+    width: 100%;
+
+    &__1 {
+        padding: 1rem;
+        width: 35%;
+    }
+
+    &__2 {
+        padding: 1rem;
+    }
+}
+
+.wrapper-flex-utbildning {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 90%;
+    height: 100%;
+}
+
+.wrapper-sundsgarden {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items:flex-start;
+    width: 100%;
+
+    &__1 {
+        padding: 1rem;
+        width: 25%;
+    }
+
+    &__2 {
+        padding: 1rem;
+        margin-left: 1rem;
+    }
+}
+
+.wrapper-marknad {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items:flex-start;
+    width: 100%;
+
+    &__1 {
+        padding: 1rem;
+        width: 25%;
+    }
+
+    &__2 {
+        padding: 1rem;
+        margin-left: 1rem;
+    }
+
+}
+
+.years {
+    font-family: fonts.$main;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    letter-spacing: 0.1em;
+    color: colors.$white;
+}
+
+.company {
+    font-family: fonts.$main;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    letter-spacing: 0.15em;
+    color: colors.$white;
+}
+
+.titel {
+    font-family: fonts.$secondary;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    letter-spacing: 0.30em;
+    color: colors.$white;
+    margin-top: -2rem;
+}
+
+
+.erfarenhet-btn {
+    width: 40rem;
+    height: 10rem;
+    background: colors.$secondary;
+    border: none;
+    margin-top: -3rem;
+    font-family: fonts.$main;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8rem;
+    line-height: 3rem;
+    text-align: center;
+    letter-spacing: 0.20em;
+    color: colors.$white;
+
+    &:hover {
+        background-color: colors.$white;
+        color: colors.$main;
+    }
+}
+
+.portfolio {
+    background: colors.$secondary;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+    margin: 0;
+    padding:0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem;
+    flex-wrap:wrap;
+    min-height: 55rem;
+    height: 100%;
+}
+
+.wrapper-portfolio {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+}
+
+.image {
+    background-color: colors.$white;
+    width:30rem;
+    height: 35rem;
+}
+
+.webb {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.foto {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.grafiskt {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.button-portfolio {
+    display: flex;
+    justify-content: center;
+    margin-top: -5rem;
+    z-index: 1;
+    position: relative;
+}
+
+.portfolio-btn {
+    width: 25rem;
+    height: 25rem;
+    border-radius: 50%;
+    border: none;
+    background: colors.$main;
+    font-family: fonts.$main;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8rem;
+    line-height: 3rem;
+    text-align: center;
+    letter-spacing: 0.20em;
+    color: colors.$white;
+    margin-bottom: 2rem;
+
+    &:hover {
+        opacity: 0.5;
+    }
+}

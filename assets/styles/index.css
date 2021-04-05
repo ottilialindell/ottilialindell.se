@@ -213,15 +213,26 @@ p {
   align-items: flex-end;
   width: 100%;
   max-height: 20rem;
+  height: 100%;
+  transform: rotate(-3.3deg);
 }
 
 .about-btn {
+  background-image: url(../images/button-om.png);
   background: #803500;
   clip-path: ellipse(50% 25% at 50% 100%);
-  transform: rotate(-5deg);
-  width: 35rem;
-  height: 45rem;
+  min-width: 35rem;
+  min-height: 45rem;
+  width: 100%;
+  height: 100%;
+  margin-bottom: -1rem;
   border: none;
+}
+.about-btn:hover {
+  opacity: 0.5;
+}
+
+.h5-om {
   font-family: "Prompt", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -229,9 +240,8 @@ p {
   line-height: 4.5rem;
   letter-spacing: 0.05em;
   color: #f1f1f1;
-}
-.about-btn:hover {
-  opacity: 0.5;
+  width: 100%;
+  height: 100%;
 }
 
 .erfarenhet {
@@ -438,16 +448,31 @@ p {
   align-items: center;
 }
 
+.image-webb {
+  max-width: 40rem;
+  width: 100%;
+}
+
 .foto {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
+.image-foto {
+  max-width: 40rem;
+  width: 100%;
+}
+
 .grafiskt {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.image-grafiskt {
+  max-width: 40rem;
+  width: 100%;
 }
 
 .button-portfolio {
@@ -475,7 +500,7 @@ p {
   margin-bottom: 2rem;
 }
 .portfolio-btn:hover {
-  opacity: 0.5;
+  background-color: #803500;
 }
 
 footer {

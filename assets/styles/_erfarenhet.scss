@@ -1,0 +1,154 @@
+.ottilia-erfarenhet {
+    width: 100%;
+    min-height: 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: colors.$main;
+}
+
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    width: 90%;
+}
+
+.container-jobb {
+    background-color: colors.$secondary;
+    padding: 2rem;
+    min-height: 45rem;
+    max-width: 32rem;
+    width: 100%;
+
+    >ul {
+        list-style-type: none;
+    }
+}
+
+.container-utbildning {
+    background-color: colors.$secondary;
+    padding: 2rem;
+    min-height: 45rem;
+    max-width: 32rem;
+    width: 100%;
+
+    >ul {
+        list-style-type: none;
+    }
+}
+
+.container-programvaror {
+    background-color: colors.$secondary;
+    padding: 2rem;
+    min-height: 45rem;
+    max-width: 34rem;
+    width: 100%;
+
+    >ul {
+        list-style-type: none;
+    }
+}
+
+.container-rubrik {
+    display: flex;
+    justify-content: center;
+}
+
+.erfarenhet-company {
+    font-family: fonts.$main;
+    font-size: 1.2rem;
+    color: colors.$white;
+    list-style-type: none;
+}
+
+.erfarenhet-info {
+    font-family: fonts.$secondary;
+    font-size: 1rem;
+    color: colors.$white;
+    padding-top: 0.2rem;
+}
+
+.rubrik {
+    font-family: fonts.$main;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.1rem;
+    line-height: 4.5rem;
+    letter-spacing: 0.05em;
+    color: colors.$white;
+}
+
+.rubrik-2 {
+    font-weight: normal;
+}
+
+@media only screen and (max-width: 1230px) {
+
+    .content-container {
+        display: flex;
+        flex-direction:column;
+    }
+    .container-programvaror  {
+        margin: 1rem;
+        max-width: 90%;
+        width: 100%;
+    }
+
+    .container-jobb  {
+        margin: 1rem;
+        max-width: 90%;
+        width: 100%;
+    }
+
+    .container-utbildning  {
+        margin: 1rem;
+        max-width: 90%;
+        width: 100%;
+    }
+
+    .container-info {
+        display: flex;
+    }
+
+    .container-break {
+        width: 30%;
+        height: 100%;
+    }
+    .container-break2 {
+        width: 40%;
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+
+    .content-container {
+        display: flex;
+        flex-direction:column;
+    }
+    .container-programvaror  {
+        margin: 1rem;
+        max-width: 90%;
+        width: 100%;
+    }
+
+    .container-jobb  {
+        margin: 1rem;
+        max-width: 90%;
+        width: 100%;
+    }
+
+    .container-utbildning  {
+        margin: 1rem;
+        max-width: 90%;
+        width: 100%;
+    }
+
+    .container-info {
+        max-width: 60%;
+
+    }
+}

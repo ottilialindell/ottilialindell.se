@@ -1,0 +1,43 @@
+.om-ottilia {
+    background-color: colors.$main;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+.half-circle-image {
+    max-width: 40%;
+    padding: 1rem 1rem 1rem 0rem;
+}
+
+.ottilia-om {
+    width: 100%;
+}
+
+.wrapper-om {
+    max-width: 40%;
+    padding: 2rem;
+    margin-right: 2rem;
+}
+
+@media only screen and (max-width: 650px) {
+    .om-ottilia {
+        display: flex;
+        flex-direction:column;
+    }
+
+    .half-circle-image {
+        min-width: 100%;
+    }
+
+    .wrapper-om {
+        min-width: 80%;
+    }
+
+    .about-top {
+        min-width: 100%;
+    }
+}

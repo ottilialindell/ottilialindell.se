@@ -78,8 +78,8 @@
 
 .toggle-button {
     position: absolute;
-    top: 1.2rem;
-    right: 1rem;
+    top: 3rem;
+    right: 2rem;
     display: none;
     flex-direction: column;
     justify-content: space-between;
@@ -90,11 +90,11 @@
 .toggle-button .bar {
     height: 0.3rem;
     width: 100%;
-    background-color: white;
+    background-color: colors.$main;
     border-radius: 1rem;
 }
 
-@media (max-width: 638px) {
+@media (max-width: 800px) {
     .toggle-button {
         display: flex;
     }

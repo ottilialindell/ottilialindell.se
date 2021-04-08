@@ -1,0 +1,32 @@
+.kontakt {
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper-kontakt {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    min-height: 45rem;
+}
+
+
+.text-kontakt {
+    color: colors.$main;
+}
+
+#linkedin {
+    font-size: 10rem;
+    color: colors.$main;
+    margin-top: 2rem;
+
+    &:hover {
+        opacity: 0.6;
+    }
+}
+
+.link-li {
+    color: colors.$secondary;
+    text-decoration: none;
+}
